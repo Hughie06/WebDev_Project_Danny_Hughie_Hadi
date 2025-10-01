@@ -1,0 +1,37 @@
+/* Basic body styling */
+body {
+	font: Arial;
+	background-color: #e0c5c5;
+	color: #222;
+	text-align: center;
+}
+
+/* Navbar styling */
+nav {
+	padding: 0.5em 0;
+	background-color: #6f6d6d;
+	color: white;
+	text-align: center;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.navbar-center {
+	background-color: #fff;
+	width: 70%;
+	margin: 0 auto;
+	border-radius: 16px;
+	padding: 0.5em 0.5em;
+}
+
+
+/* Headings styling */
+h1, h2, h3, h4, h5, h6 {
+	font: Arial;
+	color: #222;
+	margin-top: 1.2em;
+	margin-bottom: 0.5em;
+}
