@@ -1,32 +1,15 @@
 /* Basic body styling */
 body {
 	font: Arial;
-	background-color: #e0c5c5;
 	color: #222;
 	text-align: center;
 }
-
-/* Navbar styling */
-nav {
-	padding: 0.5em 0;
-	background-color: #6f6d6d;
-	color: white;
-	text-align: center;
-	border-radius: 12px;
-	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-	position: sticky;
-	top: 0;
-	z-index: 100;
+.text-background {
+    background: rgba(255, 255, 255, 0.703);
+    padding: 1em 2em;
+    border-radius: 12px;
+    display: inline-block;
 }
-
-.navbar-center {
-	background-color: #fff;
-	width: 70%;
-	margin: 0 auto;
-	border-radius: 16px;
-	padding: 0.5em 0.5em;
-}
-
 
 /* Headings styling */
 h1, h2, h3, h4, h5, h6 {
@@ -34,4 +17,57 @@ h1, h2, h3, h4, h5, h6 {
 	color: #222;
 	margin-top: 1.2em;
 	margin-bottom: 0.5em;
+}
+
+details summary{
+	  list-style: none;
+}
+
+/* Navbar styling */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navbar .nav-left {
+  float: left;
+}
+
+.navbar .nav-right {
+  float: right;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .nav-right a:hover {
+  background-color: #111111;
+}
+.navbar .nav-left p {
+	display: block;
+	color: Red;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* This vertically centers both sides */
+  /* ...other styles... */
+}
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+  font-size: larger;
 }
