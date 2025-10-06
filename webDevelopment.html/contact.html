@@ -2,17 +2,20 @@
 
 <html lang="en">
     <head> 
+        <!-- Adding a background image to the website -->
         <style>
         	body {
         		background-image: url("images/TyreOnFire.jpeg");
         		background-size: cover;
         	}
         </style>
+        <!-- Linking  stylesheet to this page -->
         <link rel="stylesheet" href="StyleSheets/StyleSheet.css">
         <title>Wheels on Fire Contact Page</title>
         <meta charset="UTF-8">
     </head>
     <body>
+        <!-- Navigation bar to navigate between Home, About and Contact pages -->
         <nav class="navbar">
             <div class="nav-left">
                 <a href="index.html">Wheels on Fire</a>
@@ -23,8 +26,7 @@
             </div>
 
         </nav>
-        
-
+        <!-- using div to style the contact information section -->
         <div class="text-background">
             <h1>Contact Information</h1>
             <h2> Email</h2>
@@ -40,23 +42,26 @@
         
             </body>
             <h3> Please enter your contact information below:</h3>
-        
+            
+            <!-- adding a text box for the user to enter their name -->
             <label for = "name"><b>Name:<b></label>
             <div class="center-text"></div><input type="text" id="name" name="name" required>
             <br>
 
             <br>
+            <!-- adding a text box for the user to enter their phone number -->
             <label for = "phoneNumber"><b>Phone number:</b></label>
             <div class="center-text"></div><input type="number" id ="phoneNumber" name ="phoneNumber" required>
             <br>
 
             <br>
+            <!-- adding a text box for the user to enter their email address -->
             <label for = "email"><b>Email:</b></label>
             <div class="center-text"></div><input type="text" id="email"name= "email" required>
             <br>
 
             <br>
-  
+            <!-- adding a 'submit' button that does nothing for now (just for looks) -->
             <button type="submit">submit</button>
             
             </form>
